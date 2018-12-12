@@ -1,0 +1,9 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <span>User Account</span>
+      <span class="example-spacer"></span>
+      <span [hidden]="!loggedIn"><a mat-button >MyPosts</a></span>
+      <span [hidden]="!loggedIn"><a mat-button >Add</a></span>
+      <span [hidden]="!loggedIn"><a mat-button>LogOut</a></span>
+    </mat-toolbar-row>
+  </mat-toolbar>
